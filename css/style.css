@@ -1,0 +1,142 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Segoe UI,
+        Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: #2f2f2f;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #2f20d1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    width: 740px;
+    margin: 20 auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.row {
+    padding: 6px 0 6px 0;
+}
+
+.label {
+    color: #565656;
+    margin-bottom: 2px;
+}
+
+.card {
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    background: var(- -bg-color);
+    box-shadow: 0 1px 3px #747681;
+}
+
+.error {
+    padding: 6px 20px;
+    border-radius: 3px;
+    background-color: #fb817c;
+    border: 1px solid #e46b66;
+}
+
+.success {
+    background-color: #48e0a4;
+    border: #40cc94 1px solid;
+}
+
+.validation-message {
+    color: #e20900;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.display-none {
+    display: none;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.header {
+    padding: 1rem;
+    top:0;
+    right:0;
+    bottom:0;
+    width:85%;
+    height:100%;
+    display:flex;
+    position:fixed;
+    flex-direction:column;
+    z-index:1025;
+    justify-content:space-between;
+    background-color:#fff;
+    transform:translateX(120%);
+    box-shadow:0px 0px 10px rgba(10,20,37,.1)
+}
+.header{width:auto;
+    height:auto;
+    transform:none;
+    position:static;
+    box-shadow:none;
+    flex-direction:row;
+    background-color:rgba(0,0,0,0)
+}
+.header-nav{
+    flex-direction:row
+}
+.nav-item{
+    flex:1 1 auto;
+    text-align:center
+}
+.nav-link, .nav-item{
+    flex-basis:0;
+    flex-grow:1;
+    text-align:center
+}
+.nav-item .nav-link{
+    width:100%
+}
+.nav-item{
+    position:relative;
+    width:100%
+}
